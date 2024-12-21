@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "ml-fast-api"
+version = "0.1.0"
+description = ""
+authors = ["ukastsiukevich <grun_gespenst@tut.by>"]
+readme = "README.md"
+packages = [{include = "ml_fast_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.115.6"
+uvicorn = "^0.34.0"
+PyYAML = "^6.0.2"
+transformers = "^4.47.1"
+httpx = "^0.28.1"
+pytest = "^8.3.4"
+tensorflow = "^2.18.0"
+tf-keras = "^2.18.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
